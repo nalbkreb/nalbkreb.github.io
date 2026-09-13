@@ -2,4 +2,10 @@ ul.navbar {
     display: flex;
     list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+
+ul.navbar li {
+    display: block;
+    padding: 25vw;
 }
