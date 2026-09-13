@@ -4,3 +4,8 @@ ul.navbar {
     background-color: #043e7c; /* background color change */
     color: white; /* text color change */
 }
+
+ul.navbar li {
+    /* margin: 30px; initial spacing rule */
+    margin: 30em;
+}
