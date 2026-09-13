@@ -1,11 +1,6 @@
 ul.navbar {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul.navbar li {
-    display: block;
-    padding: 0 1rem;
+    display: flex; /* horizontal arrangement */
+    list-style-type: none; /* removing bullet points */
+    background-color: #043e7c; /* background color change */
+    color: white; /* text color change */
 }
