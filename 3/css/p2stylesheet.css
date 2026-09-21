@@ -1,0 +1,35 @@
+nav ul {
+    display: flex; /* horizontal arrangement */
+    justify-content: center; /* for superior appearance. space-evenly would be better but it'd negate the purpose of the below padding rule */
+    list-style-type: none; /* removing bullet points */
+    background-color: #043e7c; /* background color change */
+    color: white; /* text color change */
+}
+
+nav ul li {
+    /* margin: 0 30px; initial spacing rule */
+    /* margin: 0 30em; second spacing rule */
+    /* padding: 0 30px; third spacing rule */
+    /* padding: 0 30em; fourth spacing rule */
+    padding: 0 3em;
+}
+
+nav ul li a {
+    /* for the link */
+    color: white;
+}
+
+footer p {
+    text-align: right; /* moving footer paragraph */
+}
+
+img { /* ajusting image size, no unit was specified in the instructions */
+    height: 400px;
+    width: 400px;
+}
+
+div span {
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+}
