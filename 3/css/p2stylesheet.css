@@ -24,6 +24,12 @@ nav ul li a {
     color: white;
 }
 
+
+section {
+  position: relative;
+  top: 80.8667px;
+}
+
 footer {
   position: fixed;
   left: 0;
