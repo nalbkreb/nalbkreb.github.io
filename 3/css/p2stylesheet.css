@@ -8,6 +8,7 @@ header {
   background-color: #043e7c;
   color: white;
   width: 100%;
+  text-align: center;
 }
 
 nav ul {
@@ -36,4 +37,5 @@ footer {
   width: 100%;
   background-color: #043e7c;
   color: white;
+  text-align: center;
 }
