@@ -1,35 +1,35 @@
+header {
+  background-color: #043e7c;
+  color: white;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+}
+
 nav ul {
-    display: flex; /* horizontal arrangement */
-    justify-content: center; /* for superior appearance. space-evenly would be better but it'd negate the purpose of the below padding rule */
-    list-style-type: none; /* removing bullet points */
-    background-color: #043e7c; /* background color change */
-    color: white; /* text color change */
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    background-color: #043e7c; 
+    color: white; 
 }
 
 nav ul li {
-    /* margin: 0 30px; initial spacing rule */
-    /* margin: 0 30em; second spacing rule */
-    /* padding: 0 30px; third spacing rule */
-    /* padding: 0 30em; fourth spacing rule */
     padding: 0 3em;
 }
 
 nav ul li a {
-    /* for the link */
     color: white;
 }
 
-footer p {
-    text-align: right; /* moving footer paragraph */
-}
-
-img { /* ajusting image size, no unit was specified in the instructions */
-    height: 400px;
-    width: 400px;
-}
-
-div span {
-    position: relative;
-    right: 100px;
-    bottom: 10px;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #043e7c;
+  color: white;
+  text-align: center;
 }
