@@ -47,6 +47,30 @@ section {
   flex-direction: column;
 }
 
+.buttons {
+  text-align: center;
+}
+
+.buttons ul {
+  list-style-type: none;
+  display: flex;
+  flex_direction: column;
+  padding: 0;
+}
+
+.buttons ul li {
+  padding: 15% 5%;
+  background-color: antiquewhite;
+  font-weight: bold;
+  margin: 5%;
+  border-style: outset;
+}
+
+.buttons ul li a {
+  color: brown;
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
