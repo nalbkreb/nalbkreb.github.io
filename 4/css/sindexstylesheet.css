@@ -54,7 +54,7 @@ section {
 .buttons ul {
   list-style-type: none;
   display: flex;
-  flex_direction: column;
+  flex-direction: column;
   padding: 0;
 }
 
