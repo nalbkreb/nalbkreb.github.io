@@ -1,32 +1,39 @@
+body {
+  margin: 0px;
+}
+
 header {
+  display: flex;
+  flex-direction: column;
   background-color: #043e7c;
   color: white;
-  left: 0;
-  top: 0;
   width: 100%;
   text-align: center;
-  position: fixed;
 }
 
-div {
-  position: relative;
-  top: 80.8667px;
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    background-color: #043e7c; 
+    color: white; 
 }
 
-div ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
+nav ul li {
+    padding: 0 3em;
 }
 
-div ul li {
-  margin: 0 1em;
+nav ul li a {
+    color: white;
+}
+
+section {
+  margin: .954%;
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #043e7c;
   color: white;
