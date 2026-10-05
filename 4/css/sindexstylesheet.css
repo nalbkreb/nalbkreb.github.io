@@ -1,5 +1,19 @@
+html {
+  width: 100%;
+  length: 100%
+}
+
 body {
   margin: 0px;
+  length: 100%;
+  width: 100%
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100%;
 }
 
 header {
@@ -9,6 +23,7 @@ header {
   color: #A52A2A;
   width: 100%;
   text-align: center;
+  flex-shrink: 0;
 }
 
 nav ul {
@@ -30,6 +45,10 @@ nav ul li a {
 
 section {
   margin: .954%;
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 footer {
@@ -39,4 +58,5 @@ footer {
   background-color: #FAEBD7;
   color: #A52A2A;
   text-align: center;
+  flex-shrink: 0;
 }
