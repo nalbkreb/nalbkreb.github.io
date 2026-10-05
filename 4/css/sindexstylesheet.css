@@ -39,10 +39,6 @@ nav ul li {
     padding: 0 5%;
 }
 
-nav ul li a {
-    color: #A52A2A;
-}
-
 section {
   margin: .954%;
   display: flex;
@@ -59,4 +55,8 @@ footer {
   color: #A52A2A;
   text-align: center;
   flex-shrink: 0;
+}
+
+header a, footer a, {
+  color: $A52a2a;
 }
