@@ -16,7 +16,8 @@ nav ul {
     justify-content: center; 
     list-style-type: none; 
     background-color: #043e7c; 
-    color: white; 
+    color: white;
+    padding: 0px;
 }
 
 nav ul li {
