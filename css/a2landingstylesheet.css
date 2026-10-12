@@ -17,6 +17,7 @@ div ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding: 0px;
 }
 
 div ul li {
