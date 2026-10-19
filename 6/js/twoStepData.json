@@ -1,1 +1,195 @@
 
+{
+  "ancient": {
+    "civilizations": [
+      {
+        "name": "The Chinese",
+        "image": "../image/china.png",
+        "alt": "image of the terracotta army.",
+        "copyright": "Terracotta Army Pit 1 - 2 © Maros M r a z, GFDL 1.2, CC BY-SA 3.0, CC BY-SA 2.5, CC BY-SA 2.0, CC BY-SA 1.0",
+        "paragraphs": [
+          "Chinese civilization began along the banks of the Yellow River, with evidence of their society showing up as early as 5000 BC (Wikipedia). The earliest recorded dynasty were the Xia (SHEE-ah) around 2000 BC. Archeological evidence was only found quite recently and before that they were largely considered mythological (World History Encyclopedia). After their fall came the Shang, who lasted from ~1600-1000BC. Their reign brought about the Chinese Bronze Age and saw significant technological advancements (History.com). Following them were the Zhou, who came from the Wei river valley and established the Mandate of Heaven, a concept that would become central to Chinese leadership for centuries to come. They were the longest lived of any Chinese dynasty bue eventually fell in 256BC after a seven century reign (Wikipedia).",
+          "After the fall of the Zhou, Qin Shi Huangdi, formerly known as Ying Zheng, reunited China under his rule. His reign saw the implementation of a formalized Chinese administrative government, the construction of the first portion of the Great Wall, and the burning of many books to keep the populace in line. Due to his harsh mode of ruling, the empire soon fell apart after his death. Though short lived, the Qin dyansty had a massive effect on the course of Chinese history (Britannica).",
+          "In 202, the Han dynasty took over under Emperor Liu Bang. As he had recently been a commoner himself, he understood that China needed benevolent rulers if it was to survive. The dynasty oversaw the introduction of Confucianism under Emperor Wu, who also established the Silk Road. The dynasty eventually fell after floods, mass starvation, and extreme taxation incited rebellion amongst the people in 208 AD (World History Encyclopedia)."
+        ]
+      },
+      {
+        "name": "The Olmecs",
+        "image": "../image/olmec.png",
+        "alt": "image of an olmec head.",
+        "copyright": "Olmeca head in Villahermosa © Glysiak, GFDL 1.2, CC BY-SA 4.0, CC BY-SA 3.0, CC BY-SA 2.5, CC BY-SA 2.0, CC BY-SA 1.0",
+        "paragraphs": [
+          "The Olmecs were one of the first Mesoamerican civilizations who rose up to the south east of the Tuxtla Mountains around 1200 BC. Emerging from the early farming cultures of Tabasco, the Olmecs earliest site is known as San Lorenzo Tenochtitlan along the Coatzacoalcos. This area was conducive to farming and saw the rise of an elite class, similar to other Cradles of Civilization around the globe.",
+          "By 900 BC, San Lorenzo was abandoned and the Olmecs moved east to La Venta. Their time at this site represents the peak of Olmec culture. Many artifacts found demonstrate great wealth and the Great Pyramid at La Venta was the largest structure in Mesoamerica for some time.",
+          "Around 300 BC, the Olmec population dropped suddenly and their lands became uninhabited. Historians still do not know what caused their downfall, though some theories point to migration due to tectonic or volcanic activity (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Romans",
+        "image": "../image/rome.png",
+        "alt": "image of the Foro Romano in Rome.",
+        "copyright": "Foro Romano © Bert Kaufmann, CC BY-SA 2.0",
+        "paragraphs": [
+          "Rome was, by legend, founded by the Hellenic twins Romulus and Remus. Rome began, like many civilizations, as a city state situated along the Tiber River. Many of their early practices were adopted from the nearby Etruscans, who they would eventually conquer. At first Rome was a kingdom, however, at some point around 500 BC it transitioned to a Republic. As this early period is very poorly documented, the reasons for this are unknown, though legend prescribes it to the tyranny of Rome's kings.",
+          "During its Republic period, Rome would conquer all of Italy, and, as its power expanded beyond the peninsula, go on to face Carthage, a Hellenic empire centred around modern day Tunisia. The First and Second Punic wars in the late 200 BCs established Rome's dominance over the Mediterranean and in 146 BC Rome finally burned Carthage to the ground. The republic continued to expand but grew politically unstable during the last century BC. Eventually after a Civil War, popular military leader Julius Gaius Caesar began to set himself up as dictator, until his abrupt assassination began the whole thing all over again.",
+          "Eventually, Caesar's nephew, Octavian, defeated all enemies and consolidated power as Princeps in 27 BC, marking the start of the Roman Empire. Unfortunately the Empire was not particularly stable and while there were many good Emperors, there were many more bad. Beyond having poor heads of state, the Empire was also very large, too large for one man to govern, the Emperor Diocletian reasoned. So he split the empire into east and west. In 476 AD, the west fell to Germanic King Odoacer, however the eastern portion, later referred to as Byzantium, would last until the 1400s (Britannica)."
+        ]
+      },
+      {
+        "name": "The Sumerians",
+        "image": "../image/sumer.png",
+        "alt": "image of a statue of the sumerian hero, gilgamesh.",
+        "copyright": "Gilgamesh Statue Sydney University Statue2.14th © Gwil5083, CC BY-SA 4.0",
+        "paragraphs": [
+          "Sumer was the first civilization to arise in Mesopotamia, the land between the Euphrates and Tigris rivers. It began as a series of city states each vying for power, however control over the region was first consolidated by Sargon of Akkad, founder of the Akkadian Empire.",
+          "After the fall of the Akkadians, the nomadic Gutians overtook the region until they were defeated by Utu-hengal of Uruk during the late 2110 BCs. Various petty kings would continue to vie for power in the region until it was conquered by Babylonia, which lasted from about 1894 BC to 539 BC.",
+          "Eventually, the lands of Sumer gradually became less distinct and less populated in comparison to the northern half of Mesopotamia. Their greatest legacy was in their writing system, cuneiform, and their language, which has no known relations to any other documented language (Wikipedia)."
+        ]
+      }
+    ]
+  },
+  "post-classical": {
+    "civilizations": [
+      {
+        "name": "The Iranians",
+        "image": "../image/iran.png",
+        "alt": "image of the jameh mosque of isfahan.",
+        "copyright": "20180301124354 IMG 4179And6more Interior 3 © Hamidespanani, CC BY-SA 4.0",
+        "paragraphs": [
+          "Iran, often known by the exonym Persia, was already an old civilization by the post-classical period. At the begining of this period, the Sassanian Empire was in decline, having been weakened through years of war with the Byzantines. This allowed the Rashidun Caliphate, the first Arabic Islamic state, to conquer the Iranian homelands.",
+          "Previously the Iranians had mostly followed the teachings of Zoroaster, however, the Caliphate brought Islam, which eventually became the region's dominant religion. Though conquered, the Iranians were not extinguished as both they and the Arabs adopted many elements of each other's cultures (World History Journal). As the Caliphate weakened, the Saffarids came to power ushering in the Iranian Intermezzo, also called the Persian Renaissance. Several groups from the Buyids to the Seljuk Turks would hold sway over Iran during this period, however the Caliphate never regained control over Persia.",
+          "In the 13th century, the Mongolian Empire invaded, conquering Iran in only a few short decades. This, the rise of the Ilkhanate after the Empire's dissolution, and the Black Death marked the end of the Intermezzo (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Koreans",
+        "image": "../image/korea.png",
+        "alt": "image of the gate of korea's royal palace.",
+        "copyright": "Korea sejongno gwanghwamun © Pixabay, CC0 1.0",
+        "paragraphs": [
+          "Unified Silla, a Korean kingdom, conquered its ivals Baekje and Gogureyo with the assistance of the Tang rulers, controling most of the peninsula by 676. Buddhism became the dominant religion under their rule and the capital Gyeongju became a center of art and temple building (Britannica).",
+          "Wan geon founded the Goryeo dynasty in 918, which is the origin for the name Korea. This state became famous for its celadon poetry and early printers with moveable type. For a time it resisted the Mongols but eventually became a vassal in 1231 (World History Encyclopedia).",
+          "In 1392, Yu Seong-gye, then a general, founded the Joseon dynasty, which took up Neo-Confucianism as its main ideology. Sejong the Great of the mid 1400s oversaw advances in science and literature, as well as the creation of the Hangul alphabet which remains in use to this day (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Spaniards",
+        "image": "../image/spain.png",
+        "alt": "image of the alcazar, or castle, of segovia.",
+        "copyright": "Alcazar of Segovia © Luke Lawreszuk, CC BY-NC-SA 4.0",
+        "paragraphs": [
+          "Durint the early 700s, Islamic forces invaded Iberia, ousting the Visigothic kingdom and setting up the state of al-Andalus. This polity flourished under the Umayyads and during the 10th century, became one of the wealthiest and most advanced regions of Europe (Britannica).",
+          "Though Muslims controled the majority of the peninsula, small Christian kingdoms in the north such as Asturias, Leon, Castile, Aragon and Navarre slowly began claiming territory in the long process known as the Reconquista. Toledo's capture in 1085 and the Islamic defeat at Las Navas de Tolosa in 1212 were major turning points in favor of the Christian kingdoms (World History Encyclopedia).",
+          "In 1348, the Black Death struck Iberia bringing heavy population loss. Isabella of Castile and Ferdinand of Aragon were married in 1496, uniting the two largest Christian Spanish kingdoms. In 1492, the last Muslim holdout was conquered and the two rulers decided to sponor the exploratory journey of a now famous Italian navigator (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Toltecs",
+        "image": "../image/toltec.png",
+        "alt": "image of a toltec jar molded in the shape of a face.",
+        "copyright": "Toltec-style Vessel 1 © GFLD 1.2, CC BY-SA 3.0, CC BY 2.5",
+        "paragraphs": [
+          "The Toltec capital, Tollan, rose in central Mexico after the fall of Teotihuacan. It flourished from around 900-1150 and held major power over the region (Britannica).",
+          "Tula is known for its warrior imagery,including the tall basalt figures that crown its main pyramid. Their tradition centered on the god Quetzalcoatl and the legendary ruler Topiltzin. Similarities between Tula and Chichen Itza suggest the Mayans and Toltecs had a good amount of contact (World History Encyclopedia).",
+          "Tula declined sometime during the late 1100s, probably as a result of internal conflict and outside pressure. The Aztecs would revere the Tolecs as the model civilization and claimed to be descended from them (Wikipedia)."
+        ]
+      }
+    ]
+  },
+  "early-modern": {
+    "civilizations": [
+      {
+        "name": "The Haudenosaunee",
+        "image": "../image/iroquois.png",
+        "alt": "painting of an iroquois native american.",
+        "copyright": "Iroquois Indian, Alfred Jacob Miller, Public Domain",
+        "paragraphs": [
+          "Also known as the Iroquois Confederacy, the Haudenosaunee was a coalition of Native American nations brought together by the Peacemaker and Hiawatha, though the exact date is unknown. It was ruled by a council system that gave each nation a say in governance (Britannica).",
+          "In the 1600s, the Confederation got involved with Dutch and English fur traders. This led to wars with their neighbors, like the Huron, over territories where valuable furs were common. They also allied themselves with the English during this period (World History Encyclopedia).",
+          "The Tuscarora joined in 1722, bringing the number of involved nations up to six. However the Confederacy was divided by the American Revolution, with some nations choosing to join the rebels in turning on the British. Many families were forced to relocate in 1779 as a result of the Sullivan Expedition (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Japanese",
+        "image": "../image/japan.png",
+        "alt": "image of himeji castle's keep.",
+        "copyright": "Himeji Castle Keep © Adrian Grey, CC BY-NC-SA",
+        "paragraphs": [
+          "In the early 1500s, Japan was a fractured state. Portugese traders arrived during this period and brought firearms, drastically altering Japanese warfare. Oda Nobunaga and Toyotomi Hideyoshi eventually brought the country under a central authority (Britannica).",
+          "Tokugawa Ieyasu won the Battle of Sekigahara in 1600 and became the Shogun in Edo, now Tokyo, in 1603. Thirty years later, the Shogunate isolated Japan and banned Christianity with only the Dutch and Chinese allowed to enter the country at Nagasaki for trade (World History Encyclopedia).",
+          "The Tokugawa era brought about over two centuries of peace and Edo became one of the globe's largest cities. A wealthy merchant class helped popularize kabuki theater and ukiyo-e woodblock prints. In order to keep the local lords in check, they were required to spend a good portion of their time in Edo, under the watchful eye of the Shogun (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Dutch",
+        "image": "../image/dutch.png",
+        "alt": "painting of william of orange.",
+        "copyright": "William of Orange, Adriaen Thomasz, Public Domain",
+        "paragraphs": [
+          "In 1586, the Dutch provinces rebelled against the Habsburgs of Spain in the Eighty Year's War. Eventually, in 1648, Spain recognized the independence of the Dutch Republic (Britannica).",
+          "The 1600s was the golden age of Holland. In 1602, the Dutch East India Company was founded, which built a vast and wealthy trade network. Amsterdam became a leading financial center, and many Dutch artists rose to prominence (World History Encyclopedia).",
+          "Wars with England and France put strain on the republic. Stadtholder William III became England's king in 1688, uniting the two countries for a time. However the Republic's power began to wane in the 1700s and eventually they were conquered by France in 1795."
+        ]
+      },
+      {
+        "name": "The Ottomans",
+        "image": "../image/turk.png",
+        "alt": "painting of suleiman the magnificent.",
+        "copyright": "Emperor Suleiman, Titan, Public Domain",
+        "paragraphs": [
+          "After Mehmed II conquered Constantinople in 1453, the Ottoman Empire continued to expand. Selim I took Egypt and Syria in the early 1500s, bringing Islam's holy sites under their control. Suleiman the Magnificent pushed as far into Europe as the Empire would go, nearly conquering Vienna in 1529 (Britannica).",
+          "The empire governed a diverse population through institutions such as the millet system, allowing religious communities to manage many of their own affairs. The Janissaries, elite soldiers of the Sultan, were recruited from foreign prisioners. Sinan the architect built many grand mosques throughout the empire (World History Encyclopedia).",
+          "The Ottoman fleet lost at Lepanto in 1571, but quickly rebuilt. In 1683, they once again failed to take Vienna and started loosing ground to the Austrian Habsburgs, loosing most of Hungary in the Treaty of Karlowitz. After this the Empire continued to decline, with modern Turkey being it's last remnant (Wikipedia)."
+        ]
+      }
+    ]
+  },
+  "late-modern": {
+    "civilizations": [
+      {
+        "name": "The Egyptians",
+        "image": "../image/egypt.png",
+        "alt": "image of aswan dam in southern egypt.",
+        "copyright": "Aswan Dam © Orlova-tpe, CC BY-SA 3.0",
+        "paragraphs": [
+          "France's Napoleon invaded Egypt in 1798, but his empire only hed it a short time. In 1805, Muhammad Ali (Not the boxer) took power, modernized the army, built new schools and factories, and expanded Egypt's cotton farms. His descended ruled for a century and a half (Britannica).",
+          "The Suez Canal connected the Red Sea to the Mediterranean in 1869, however, Egypt had gone into heavy debt in order to build it and the British Empire occupied the country in 1882 and made it a protectorate in 1914. Egypt gained nominal independence in 1922, though it was still technically under British rule (World History Encyclopedia).",
+          "In 1952 the Free Officers, a military group, overthrew the monarchy and Gamal Abdel Nasser became the leading figure of the new republic. However his nationalization of the Suez Canal in '56, led to an international crisis. Several wars with Israel eventually resulted in peaceful relations between the two countries in 1979 (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The French",
+        "image": "../image/france.png",
+        "alt": "image of charles de gaulle.",
+        "copyright": "Generaal De Gaulle, Bestanddeelnr 909-5671 © Anefo, CC0 1.0",
+        "paragraphs": [
+          "Napoleon Bonaparte took control of France in 1799 and crowned himself emperor in 1804, introducing the Napoleonic Code. In 1815, he was defeated and exiled, restoring the monarchy, however further revolutions led to several regime changes, with Napoleon III leading the Second French Empire (Britannica).",
+          "The empire ceased to exist after the brief but devastating Franco-Prussian War, leading to the creation of the Third Republic. This state created a colonial empire in Africa and Southeast Asia. World War I and II significantly weakened the country, even leading to its occupation during the '40s (World History Encyclopedia).",
+          "After the war, a series of conflicts in Indochina and Algeria led to France loosing its colonies. The Algerian War had the secondary effect of causing the downfall of the Fourth Republic and the Fifth was established with Charles de Gaulle, a famous and respected leader from the Second World War, taking power in 1958 (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Guatemalans",
+        "image": "../image/guatemala.png",
+        "alt": "image of guatemala city's post office palace.",
+        "copyright": "Post Office Palace in Guatemala City © Geirge Revline, CC BY-SA 2.0",
+        "paragraphs": [
+          "Guatemala declared it's independence from Spain in 1821 and briefly joined Mexico and the United Provinces of Central America. It finally became a separate republic in 1839under Rafael Carrera (Britannica).",
+          "Liberal reforms post 1870 under Justo Rufino Barrios promoted coffee exports at the cost of depriving indigenous people of land and labor. Later the American 'United Fruit Company' gained significant influence over the economy, controlling an incredibly high percentage of Guatemalan land. This was supported by the dictator Jorge Ubico (World History Encyclopedia).",
+          "A popular revolution in 1944 began a decade of reform, including land redistribution under Jacobo Arbenz. A CIA-backed coup removed him from power in 1954 which led to a civil war that started in the '60s, led to the genocide of the Mayan people, and only really ended in the mid 90s (Wikipedia)."
+        ]
+      },
+      {
+        "name": "The Vietnamese",
+        "image": "../image/viet.png",
+        "alt": "image of ho chi minh in 1946.",
+        "copyright": "Ho Chi Minh 1946, Public Domain",
+        "paragraphs": [
+          "Emperor Gia Long founded the Nguyen dynasty in 1802 and unified the country. However in 1858, French forces attacked Da Nag and eventually conquered the country creating French Indochina (Britannica).",
+          "Resistance to the French grew in the early 1900s. Ho Chi Minh founded the Indochinese Communist Party in the '30s and after Japanese occupation during WWII, the Viet Minh declared independence (World History Encyclopedia).",
+          "In 1954 the French were defeated and the country was divided in two at the 17th parallel, mirroring the action taken in Korea. However peace did not last and war broke out between the two states with heavy involvement from the United States. U.S. forces withdrew in '73 and Saigon fell to the North in '75. The country completed unification in '76 (Wikipedia)."
+        ]
+      }
+    ]
+  }
+}
