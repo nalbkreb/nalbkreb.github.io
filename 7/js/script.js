@@ -1,3 +1,7 @@
+import { db } from "./firebase-config.js";
+import { requireAuth } from "./auth.js";
+import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+
 document.addEventListener("DOMContentLoaded", () => {
     const buttonSection = document.querySelector("section.buttons");
     const infoSection = document.querySelector("section.twoStepInfo");
@@ -28,19 +32,34 @@ document.addEventListener("DOMContentLoaded", () => {
     backSection.className = "backSection";
     backSection.appendChild(backButton);
 
-    fetch("../js/twoStepData.json")
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error("Could not load twoStepData.json");
+    const loading = document.createElement("p");
+    loading.className = "statusMessage";
+    loading.setAttribute("role", "status");
+    loading.innerHTML = '<span class="spinner" aria-hidden="true"></span> Loading…';
+
+    const errorMsg = document.createElement("p");
+    errorMsg.className = "statusMessage errorMessage";
+    errorMsg.setAttribute("role", "alert");
+    errorMsg.hidden = true;
+
+    buttonSection.before(loading, errorMsg);
+    buttons.forEach((b) => (b.disabled = true));
+
+    requireAuth()
+        .then(() => getDocs(collection(db, "eras")))
+        .then((snapshot) => {
+            data = {};
+            snapshot.forEach((d) => { data[d.id] = d.data(); });
+            if (Object.keys(data).length === 0) {
+                throw new Error("No civilization data was found in the database.");
             }
-            return response.json();
-        })
-        .then((json) => {
-            data = json;
+            buttons.forEach((b) => (b.disabled = false));
         })
         .catch((error) => {
-            console.error(error);
-        });
+            errorMsg.textContent = error.message;
+            errorMsg.hidden = false;
+        })
+        .finally(() => loading.remove());
 
     buttonSection.addEventListener("click", (event) => {
         const button = event.target.closest("button");
