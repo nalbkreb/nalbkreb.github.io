@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="../image/favicon.ico">
     <link rel="stylesheet" href="../css/sindexstylesheet.css">
   </head>
+  <script type="module" src="../js/contact.js"></script>
   <body>
     <main>
       <header>
@@ -25,13 +26,17 @@
       </header>
 
       <section>
-        <p>Got questions for us? Well we might have answers! Just fill out the info below and we'll get to you as soon as we can!</p>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">E-Mail:</label>
-          <input type="text" id="email" name="email"><br><br>
+        <p>Got questions for us? Well we might have answers! Just write your message below and we'll get back to you at the email address you're logged in with ASAP.</p>
+        <form id="contactForm">
+          <label for="message">Your message:</label>
+          <textarea id="message" name="message" rows="6" maxlength="5000" required></textarea>
+          <button type="submit" id="sendBtn">Submit</button>
         </form>
+        <div class="feedback">
+          <div id="spinner" class="spinner" role="status" aria-label="Sending" hidden></div>
+          <p id="status" role="status" aria-live="polite"></p>
+          <p id="error" role="alert" class="errorMessage" hidden></p>
+        </div>
       </section>
     
       <footer>
