@@ -2,7 +2,7 @@ import { auth } from "./firebase-config.js";
 import {
   signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
   onAuthStateChanged, updatePassword, reauthenticateWithCredential, EmailAuthProvider
-} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
 
 const $ = (id) => document.getElementById(id);
 const spinner = $("spinner"), statusEl = $("status"), errorEl = $("error");
