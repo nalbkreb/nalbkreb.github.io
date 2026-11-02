@@ -1,5 +1,5 @@
 import { auth } from "./firebase-config.js";
-import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
 
 const inPages = location.pathname.includes("/pages/");
 const loginUrl = inPages ? "login.html" : "pages/login.html";
