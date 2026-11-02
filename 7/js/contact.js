@@ -1,6 +1,6 @@
 import { db } from "./firebase-config.js";
 import { requireAuth } from "./auth.js";
-import { collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js";
 
 const form = document.getElementById("contactForm");
 const spinner = document.getElementById("spinner");
