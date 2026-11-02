@@ -163,3 +163,75 @@ img.civImage {
   margin: auto;
   border: 4px solid brown;
 }
+
+[hidden] {
+  display: none !important;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+section form label {
+  font-size: 1.2rem;
+}
+
+section form input,
+section form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  padding: .5rem;
+  border: .125rem solid #a52a2a;
+}
+
+section form button {
+  align-self: center;
+  width: auto;
+  margin-top: .5rem;
+  padding: .5rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.feedback,
+.statusMessage {
+  text-align: center;
+}
+
+.spinner {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid #cabfb0;
+  border-top-color: #a52a2a;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  vertical-align: middle;
+  margin: .5rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation-duration: 3s; }
+}
+
+.errorMessage {
+  color: #a52a2a;
+  font-weight: bold;
+}
