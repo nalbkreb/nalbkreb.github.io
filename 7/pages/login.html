@@ -10,7 +10,8 @@
         <link rel="icon" type="image/x-icon" href="image/favicon.ico">
         <link rel="stylesheet" href="../css/sindexstylesheet.css">
     </head>
-
+    <script type="module" src="../js/login.js"></script>
+    <script type="module" src="../js/auth.js"></script>
     <body>
         <main>
 
@@ -26,7 +27,39 @@
             </nav>
         </header>
 
-        <section></section>
+        <section>
+          <div class="feedback">
+            <div id="spinner" class="spinner" role="status" aria-label="Working" hidden></div>
+            <p id="status" role="status" aria-live="polite"></p>
+            <p id="error" role="alert" class="errorMessage" hidden></p>
+          </div>
+
+          <div id="authForms">
+            <p>Enter your email and password, then choose Log In if you already have an account, or Sign Up to create one. You need to be logged in to view the rest of the site.</p>
+            <form id="authForm">
+              <label for="email">E-Mail:</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <label for="password">Password (at least 6 characters):</label>
+              <input type="password" id="password" name="password" autocomplete="current-password" minlength="6" required>
+              <button type="submit" id="loginBtn">Log In</button>
+              <button type="button" id="signupBtn">Sign Up</button>
+            </form>
+          </div>
+
+          <div id="accountSection" hidden>
+            <p id="welcome"></p>
+            <form id="passwordForm">
+              <label for="currentPassword">Current password:</label>
+              <input type="password" id="currentPassword" autocomplete="current-password" required>
+              <label for="newPassword">New password (at least 6 characters):</label>
+              <input type="password" id="newPassword" autocomplete="new-password" minlength="6" required>
+              <button type="submit">Change Password</button>
+            </form>
+            <form onsubmit="return false">
+              <button type="button" id="logoutBtn">Log Out</button>
+            </form>
+          </div>
+        </section>
 
         <footer>
             <p>October 18th, 2026</p>
